@@ -1,3 +1,2 @@
-list=["foo","bar","baz"]
-first, second, third = list
-print(third)
+list=["foo","bar","baz","bon"]
+print(list[len(list)-1])
