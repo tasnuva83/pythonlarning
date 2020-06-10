@@ -1,0 +1,9 @@
+s1=set([7,9,12,7,9])
+s2=set(['abc',12,'b','car',7,10,12])
+s3=set([12,14,12,'ab'])
+A=s1&s2
+print(s1&s2)
+C=(s1&s2)^s3
+print(C)
+D=A^s3
+print(D)

@@ -1,0 +1,12 @@
+s1=set([7,9,12,7,9])
+s2=set(['abc',12,'b','car',7,10,12])
+s3=set([12,14,12,'ab'])
+B=s1.union(s2)
+print(B)
+B=s1|s2
+print(B)
+print('b'in s2)
+print('ab'in s2)
+print('ab'in s3)
+s2.discard(12)
+print(s2)
