@@ -14,3 +14,4 @@ d2=dict(countries_person)
 print(d2)
 for key,value in d2.items():
     print(key,value)
+print(d2['russia'])

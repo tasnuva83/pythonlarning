@@ -1,6 +1,5 @@
 list=[23,24,25,26,24,24]
 def length():
-    global list
     list= [23,24,25,26,24,24,28]
     print(list)
     print(len(list))

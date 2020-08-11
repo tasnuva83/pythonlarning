@@ -10,8 +10,8 @@ countoccurence(24)
 countoccurence(25)
 
 def removelement(x):
-    print(list.remove(x))
-    print("after remove the list:", list)
+    list.remove(x)
+    print('new list:', list)
 removelement(25)
 removelement(23)
 
